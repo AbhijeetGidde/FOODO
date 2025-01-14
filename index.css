@@ -1,6 +1,21 @@
 ul li{
   margin:0 10px; font-size: 20px;
 }
+
+.mainlogo{
+  color: #ffc107;
+  font-size: 80px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ margin-left: 5px;
+transition: ease-in 0.2s;
+text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), 0px 0px 25px rgba(0, 0, 0, 0.5);
+  font-weight: bolder;
+
+}
+.mainlogo:hover{
+  transform: scale(1.05);
+ text-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.774);
+}
     .pop {
         display: none;
         position: fixed;
